@@ -1,0 +1,40 @@
+{
+  "name": "@franzzemen/deep-merge",
+  "version": "0.0.1",
+  "description": "Deep merge taking into account cyclic behavior",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranzZemen/deep-merge.git"
+  },
+  "keywords": [
+    "DeepMerge",
+    "Deep"
+  ],
+  "author": "Franz Zemen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranzZemen/deep-merge/issues"
+  },
+  "homepage": "https://github.com/FranzZemen/deep-merge#readme",
+  "devDependencies": {
+    "@franzzemen/gulp-base": "^12.0.4",
+    "@franzzemen/npmu": "^2.0.16",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.0",
+    "chai": "^4.3.6",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^8.0.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "object-path": "^0.11.8"
+  }
+}
